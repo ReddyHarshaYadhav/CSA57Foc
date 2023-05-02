@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+ int i,n;
+ printf("enter the value:");
+ scanf("%d",&n);
+ printf("all the odd value from 1 to %d:",n);
+ for(i=1;i<=n;i+=2)
+ {
+     if(i==n)
+     printf("%d",i);
+     else
+     printf("%d,",i);
+ }
+ return 0;
+}
